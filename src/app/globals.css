@@ -50,3 +50,14 @@
 
   }
 }
+
+
+.skewed-container {
+  transform: skew(15deg, 15deg);
+  background-color: #EDEFFF;
+  padding: 20px;
+}
+
+.content {
+  transform: skew(15deg); /* Counter-skew the content by 15 degrees */
+}

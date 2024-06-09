@@ -18,7 +18,7 @@ const ChipTabs = ({tabs}: ChipProps) => {
   const Render = () => tabs && tabs[activeTabIndex].content;
 
   return (
-    <div  className="flex flex-col md:items-center">
+    <div  className="flex flex-col items-center">
 
     <div className="px-0 my-5  flex items-center gap-x-2 !overflow-x-scroll no-scrollbar border-b border-  bg-[#F2F2F2] rounded-[15px]">
       {tabs?.map((tab: {title: string}, idx: number) => (
@@ -47,7 +47,7 @@ const Chip = ({ text, selected, setSelected}: ChipProps) => {
         selected
           ? "text-[#202229] bg-[#C7F4C2] font-semibold"
           : " font-medium"
-      } text-base leading-[23.78px] transition-colors px-2.5 py-3 rounded-[15px] relative text-[#202229]`}
+      } text-sm md:text-base whitespace-nowrap leading-[23.78px] transition-colors px-[unset] md:px-2.5 py-3 rounded-[15px] relative text-[#202229]`}
     >
       <span className="relative z-10 px-8">{text}</span>
       {selected && (
