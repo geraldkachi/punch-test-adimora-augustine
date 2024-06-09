@@ -2,6 +2,7 @@ import {MutableRefObject, ReactNode, useRef, useState} from "react";
 import CollapseIcon from "/public/acc-minus.svg";
 import PlusIcon from "/public/acc-plus.svg";
 import Image from "next/image";
+const index = 1
 
 type AccordionProps = {
   heading: string | ReactNode;
@@ -29,13 +30,13 @@ function Accordion({
 
   return (
     <div
-      className={`relative bg-transparent rounded-lg max-w-5xl mx-auto mb-4  ${
+      className={`relative bg-transparent border border-[#F0F0F0] rounded-[7px] max-w-5xl mx-auto mb-1  ${
         openAccordion ? activeClass : ""
       } ${otherClasses || ""}`}
     >
       {showHeader && (
         <div
-          className={`w-full rounded-lg px-5 ${
+          className={`w-full rounded-[7px] px-3 ${
             open || openAccordion
               ? ""
               : ""
@@ -43,10 +44,10 @@ function Accordion({
         >
           <div
             onClick={toggleAccordion}
-            className={`flex cursor-pointer items-center justify-between py-2 space-x-3 bg-transparent`}
+            className={`flex cursor-pointer items-center justify-between py-0 space-x-3 bg-transparent`}
           >
-            <span style={{flexGrow: 2}} className={`font-semibold my-4 text-base text-[#808084] ${open || openAccordion && '!text-[#01C467]'}`}>
-              {heading}{" "}
+            <span style={{flexGrow: 2}} className={`font-normal my-4 text-base text-[#202229] flex items-center ${open || openAccordion && '!text-[#202229]'}`}>
+            {(open || openAccordion) ? <img className='bg-[#8BA4FD] p-4 rounded-full mr-3' src="accord-active.svg" alt="" /> : <img className='bg-[#ECECEC] p-4 rounded-full mr-3' src="accord-inactive.svg" alt="" />}{heading}{" "}
             </span>
             <button type="button" className="hidden sm:block">
               {/* {open || openAccordion ? (
@@ -63,10 +64,8 @@ function Accordion({
         style={{
           maxHeight: open || openAccordion ? ref.current.scrollHeight : 0,
         }}
-        className={`relative transition-all border
-        } overflow-hidden transition-all duration-[0.7rem] bg-[#FAFAFA]`}
-      >
-        <div className="px-5 bg-[#FAFAFA] hover:bg-[#E7FDF3] p-4">{children}</div>
+        className={` ${(open || openAccordion) && 'bg-white'} relative border border-[#F0F0F0] overflow-hidden transition-all duration-[0.7rem] bg-[#FAFAFA]`}>
+        <div className="px-5 p-4">{children}</div>
       </div>
     </div>
   );

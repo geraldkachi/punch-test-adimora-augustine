@@ -6,6 +6,7 @@ import { navVariants } from '../utils/motion'
 import { motion } from "framer-motion";
 import MarketPlace from './MarketPlace'
 import HowItWorked from './HowItWorked'
+import HowToEnsure from './HowToEnsure'
 
 const Home = () => {
     return (
@@ -94,8 +95,9 @@ const Home = () => {
                 />
             </div>
             <img src="lining.svg" className='w-full mt-20' alt="" />
-            <MarketPlace />
+            <MarketPlace /> 
             <HowItWorked />
+            <HowToEnsure />
         </div>
     )
 }
