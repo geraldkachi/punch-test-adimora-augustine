@@ -30,7 +30,7 @@ const ChipTabs = ({tabs}: ChipProps) => {
         />
       ))}
     </div>
-    <div className="overflow-x-scroll">
+    <div className="overflow-x-scroll overflow-hidden">
       <Render />
     </div>
       </div>

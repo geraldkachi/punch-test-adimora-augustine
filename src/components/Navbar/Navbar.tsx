@@ -46,7 +46,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="md:hidden flex items-center justify-center gap-4">
-                        <Button title="Join Now" className="!bg-white text-[#202229]" />
+                        <Button title="Join Now" className="!bg-white !text-[#202229]" />
                         <img src="/menu.svg" alt="menu" onClick={() => setNav(!nav)} className="w-[48px] h-[48px] object-contain cursor-pointer" width={20} height={20} />
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
 
                     <div className='w-full grid grid-cols-2  gap-6 bg-[#2A2A33] p-4'>
                         <Button title="Log In" className="flex items-center justify-center !text-white !bg-transparent !border !border-white" />
-                        <Button title="Join Now" className="flex items-center justify-center !bg-white text-[#202229]" />
+                        <Button title="Join Now" className="flex items-center justify-center !bg-white !text-[#202229]" />
                     </div>
                 </div>
             </ul>
