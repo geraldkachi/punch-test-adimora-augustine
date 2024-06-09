@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import MarketPlace from './MarketPlace'
 import HowItWorked from './HowItWorked'
 import HowToEnsure from './HowToEnsure'
+import Startjourney from './Startjourney'
 
 const Home = () => {
     return (
@@ -98,6 +99,7 @@ const Home = () => {
             <MarketPlace /> 
             <HowItWorked />
             <HowToEnsure />
+            <Startjourney />
         </div>
     )
 }
