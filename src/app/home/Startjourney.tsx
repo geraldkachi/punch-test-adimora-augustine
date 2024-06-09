@@ -109,7 +109,7 @@ const Startjourney = () => {
                     </div>
 
                     <div className="skew-y-2 flex flex-col flex-1 mt-10 md:mt-0"> 
-                        <img src="3start-sec.svg" className='-mt-5' alt="" />
+                        <img src="3start-sec.svg" className='-mb-5' alt="" />
                     </div>
                 </div>
             </div>
