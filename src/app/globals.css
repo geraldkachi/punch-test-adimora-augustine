@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/switzer');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+}
+
+:root {
+  font-family: 'Switzer', sans-serif;
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
+  --marginCard: 4vw;
+  --paddingCard: 2vw;
+  --heightCard: 32vw;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+
+  }
+}
