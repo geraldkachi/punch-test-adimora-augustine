@@ -104,8 +104,6 @@ const Startjourney = () => {
                                 </div>
                             </motion.div>
                         </div>
-
-
                     </div>
 
                     <div className="skew-y-2 flex flex-col flex-1 mt-10 md:mt-0"> 
