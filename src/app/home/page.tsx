@@ -8,6 +8,8 @@ import MarketPlace from './MarketPlace'
 import HowItWorked from './HowItWorked'
 import HowToEnsure from './HowToEnsure'
 import Startjourney from './Startjourney'
+import Footer from '@/components/Footer/Footer'
+import WhychooseZwilt from './WhychooseZwilt'
 
 const Home = () => {
     return (
@@ -100,6 +102,10 @@ const Home = () => {
             <HowItWorked />
             <HowToEnsure />
             <Startjourney />
+            <WhychooseZwilt />
+
+
+            <Footer />
         </div>
     )
 }

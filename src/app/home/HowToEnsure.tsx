@@ -31,7 +31,7 @@ export const faqArr = [
 const HowToEnsure = () => {
     return (
         <div className='-skew-y-2  py-4 h-full w-full md:py-20'>
-            <div className={`skew-y-2 max-w-7xl mx-3 xl:mx-auto sm:flex flex-row items-center justify-center gap-5 py-20`}>
+            <div className={`skew-y-2 max-w-7xl mx-3 xl:mx-auto md:flex flex-row items-center justify-center gap-5 py-20`}>
                 <div className="flex flex-col flex-1 w-full">
                 <div className="flex flex-col mt-7 md:mt-14">
                         <p className={`inline text-start mt-2 text-[#202229] font-bold text-4xl md:text-[54px] leading-[48px] md:leading-[64px]`}>

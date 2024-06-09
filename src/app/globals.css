@@ -18,6 +18,9 @@
   --marginCard: 4vw;
   --paddingCard: 2vw;
   --heightCard: 32vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,3 +64,4 @@
 .content {
   transform: skew(15deg); /* Counter-skew the content by 15 degrees */
 }
+
