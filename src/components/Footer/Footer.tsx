@@ -32,70 +32,61 @@ const Footer = () => {
 
                     <div className="grid grid-cols-2 gap-3 md:gap-20 px-3 md:px-0 py-6 lg:py-8 md:grid-cols-4 whitespace-nowrap">
                         <div>
-                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">FEATURES</h2>
+                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">PLATFORM</h2>
                             <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
                                 <li className="mb-2">
-                                    <a href="#" className="hover:underline">Financial Reports</a>
+                                    <a href="#" className="hover:underline">Find Work</a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="#" className="hover:underline">Virtual Accounts</a>
+                                    <a href="#" className="hover:underline">Find Talent</a>
                                 </li>
                                 <li className="mb-2">
                                     <a href="#" className="hover:underline">Approvals</a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="#" className="hover:underline">Audit Trails</a>
+                                    <a href="#" className="hover:underline">Categories</a>
                                 </li>
                                 <li className="mb-2">
-                                    <a href="#" className="hover:underline">invoicing</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">COMPANY</h2>
-                            <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
-                                <li className="mb-2">
-                                    <Link href="/about" className="hover:underline">About Us</Link>
-                                </li>
-                                <li className="mb-2">
-                                    <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
-                                </li>
-                                <li className="mb-2">
-                                    <a href="#" className="hover:underline">Careers</a>
-                                </li>
-                                <li className="mb-2">
-                                    <Link href="/faq" className="hover:underline">FAQs</Link>
+                                    <a href="#" className="hover:underline">About Us</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">RESOURCES</h2>
+                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">CATEGORIES</h2>
                             <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
                                 <li className="mb-2">
-                                    <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
+                                    <Link href="/" className="hover:underline">Data Science</Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/terms-of-use" className="hover:underline">Terms of Use</Link>
+                                    <a href="/" className="hover:underline">IT & Networking</a>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/help-center" className="hover:underline">Help Center</Link>
-                                </li>
-                                <li className="mb-2">
-                                    <Link href="/blog" className="hover:underline">Blog</Link>
+                                    <a href="#" className="hover:underline">Web & Mobile</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">SUPPORT</h2>
+                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">HELP</h2>
                             <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
                                 <li className="mb-2">
-                                    <Link href="/help-cent" className="hover:underline">Help Center</Link>
+                                    <a href="/" className="hover:underline">FAQ’s</a>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/contact-us" className="hover:underline">Contact Us</Link>
+                                    <Link href="/" className="hover:underline">Contact Us</Link>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">GET IN TOUCH @</h2>
+                            <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
+                                <li className="mb-2">
+                                    <Link href="/help-cent" className="hover:underline">Instagram</Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/pricing" className="hover:underline">Pricing</Link>
+                                    <Link href="/contact-us" className="hover:underline">LinkedIn</Link>
+                                </li>
+                                <li className="mb-2">
+                                    <Link href="/pricing" className="hover:underline">Twitter</Link>
                                 </li>
                             </ul>
                         </div>
