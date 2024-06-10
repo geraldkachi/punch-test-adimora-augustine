@@ -21,8 +21,8 @@ const Footer = () => {
                     <div className="flex flex-col mt-5">
                         <span className='leading-[32px] font-semibold text-sm'>LINKS AND REDIRECTS</span>
                         <div className=' grid grid-cols-2 gap-6 mt-4'>
-                        <Button title="Hire now" className="flex items-center justify-center rounded-[20.27px] !text-white !bg-[#292B34] !border !text-[14.86px] !border-none !leading-[12.16px] !font-medium !py-3 !px-2 " />
-                        <Button title="Apply now" className="flex items-center justify-center rounded-[20.27px] !bg-[#292B34] !text-white !text-[14.86px] !leading-[12.16px] !font-medium !py-3 !px-2 " />
+                        <Button title="Hire now" className="flex items-center justify-center rounded-[20.27px] !text-white !bg-[#292B34] !border !text-[14.86px] !border-none !leading-[12.16px] !font-medium !p-4" />
+                        <Button title="Apply now" className="flex items-center justify-center rounded-[20.27px] !bg-[#292B34] !text-white !text-[14.86px] !leading-[12.16px] !font-medium !p-4 " />
                     </div>
                     </div>
                 </div>

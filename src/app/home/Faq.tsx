@@ -42,10 +42,10 @@ const Faq = () => {
                 </motion.div>
                 <motion.div variants={navVariants} className={`max-w-full flex items-center justify-between flex-1 px-auto w-full  text-center text-[#202229] font-normal text-2xl leading-[24px] border border-[#D6D6D6]`}>
                   <div className="border px-4 flex h-max">
-                    <span className="px-4 h-full w-max py-5 border-r border--r[#D6D6D6]">General</span>
-                    <span className="px-4 h-full w-max py-5 border-r border-[-r#D6D6D6]">Joining Process</span>
+                    <span className="px-4 h-full w-max py-5 border-r border-[#D6D6D6]">General</span>
+                    <span className="px-4 h-full w-max py-5">Joining Process</span>
                     </div>  
-                  <span className="flex items-center justify-center flex-1 py-5 pr-40">I want to work part-time, is that possible</span>
+                  <span className="flex items-center justify-center flex-1 py-5 pr-44">I want to work part-time, is that possible</span>
                   <span></span>
                 </motion.div>
                 <motion.div variants={navVariants} className={`max-w-full flex items-center justify-between flex-1 px-auto w-full  text-center text-[#202229] font-normal text-2xl leading-[24px] border border-[#D6D6D6]`}>
