@@ -34,8 +34,18 @@ const Footer = () => {
                         <div>
                             <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">PLATFORM</h2>
                             <ul className="mb-3 md:mb-4 text-xs md:text-lg leading-[24px] font-medium text-white space-y-4 w-full">
-                                <li className="mb-2">
+                                <li className="mb-2 flex items-start flex-col">
                                     <a href="#" className="hover:underline">Find Work</a>
+                                    <svg width="102" height="2" viewBox="0 0 102 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 1H101.5" stroke="url(#paint0_linear_5597_69)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_5597_69" x1="0" y1="1" x2="100.5" y2="1" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white"/>
+                                <stop offset="1" stop-color="#202229"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+
                                 </li>
                                 <li className="mb-2">
                                     <a href="#" className="hover:underline">Find Talent</a>
