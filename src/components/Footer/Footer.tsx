@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className="grid grid-cols-2 gap-3 md:gap-20 px-3 md:px-0 py-6 lg:py-8 md:grid-cols-4 whitespace-nowrap">
                         <div>
                             <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">PLATFORM</h2>
-                            <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
+                            <ul className="mb-3 md:mb-4 text-xs md:text-lg leading-[24px] font-medium text-white space-y-4 w-full">
                                 <li className="mb-2">
                                     <a href="#" className="hover:underline">Find Work</a>
                                 </li>
@@ -53,7 +53,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">CATEGORIES</h2>
-                            <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
+                            <ul className="mb-3 md:mb-4 text-xs md:text-lg leading-[24px] font-medium text-white space-y-4 w-full">
                                 <li className="mb-2">
                                     <Link href="/" className="hover:underline">Data Science</Link>
                                 </li>
@@ -67,7 +67,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">HELP</h2>
-                            <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
+                            <ul className="mb-3 md:mb-4 text-xs md:text-lg leading-[24px] font-medium text-white space-y-4 w-full">
                                 <li className="mb-2">
                                     <a href="/" className="hover:underline">FAQ’s</a>
                                 </li>
@@ -78,7 +78,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <h2 className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-[#757679]">GET IN TOUCH @</h2>
-                            <ul className="mb-3 md:mb-4 text-xs md:text-sm leading-[32px] font-semibold text-white space-y-4 w-full">
+                            <ul className="mb-3 md:mb-4 text-xs md:text-lg leading-[24px] font-medium text-white space-y-4 w-full">
                                 <li className="mb-2">
                                     <Link href="/help-cent" className="hover:underline">Instagram</Link>
                                 </li>
