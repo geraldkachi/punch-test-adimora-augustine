@@ -8,7 +8,7 @@ const Footer = () => {
         // bg-gradient-to-b from-[#FDFDFF] from-10% via-[#F3F4FF] via-70% to-[#F3F4FF] 10% to-90%
         <div className="bg bg-[#0C0C0C] text-white">
             <div className="-skew-y-2 bg-[#0C0C0C]  py-4 h-full w-full md:pt-20">
-            <div className="skew-y-2 grid grid-cols-6 gap-10 max-w-7xl mx-3 xl:mx-auto ">
+            <div className="skew-y-2 grid md:grid-cols-6 gap-10 max-w-7xl mx-3 xl:mx-auto ">
                 <div className="col-span-2">
                     <div className="flex flex-col mb-10">
                     <Link href="/">
@@ -96,10 +96,10 @@ const Footer = () => {
 
             </div>
             <div className='max-w-7xl mx-auto mt-5 py-2'>
-                <div className='flex items-center justify-between border-t border-[#2022295E]'>
-                    <span className="text-[#FFFFFF] text-base text-[31.25px] font-medium">All rights reserved  by Zwilt</span>
+                <div className='sm:flex items-center justify-between text-center border-t border-[#2022295E]'>
+                    <span className="block sm:inline text-[#FFFFFF] text-base text-[31.25px] font-medium">All rights reserved  by Zwilt</span>
 
-                    <div className="flex items-center gap-4 text-[#A6A7A9] text-base leading[31.25px] font-medium">
+                    <div className="block sm:flex items-center gap-4 text-[#A6A7A9] text-base leading[31.25px] font-medium">
                         <span className="text underline">Privacy Policy</span>
                         <span className="text underline">Terms and Conditions</span>
                     </div>
