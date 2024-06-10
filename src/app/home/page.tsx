@@ -10,6 +10,8 @@ import HowToEnsure from './HowToEnsure'
 import Startjourney from './Startjourney'
 import Footer from '@/components/Footer/Footer'
 import WhychooseZwilt from './WhychooseZwilt'
+import Faq from './Faq'
+import NeedAJob from './NeedAJob'
 
 const Home = () => {
     return (
@@ -103,7 +105,8 @@ const Home = () => {
             <HowToEnsure />
             <Startjourney />
             <WhychooseZwilt />
-
+            <Faq />
+            <NeedAJob />
 
             <Footer />
         </div>
