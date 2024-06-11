@@ -49,7 +49,7 @@ const Chip = ({ text, selected, setSelected}: ChipProps) => {
           : " font-medium"
       } text-sm md:text-base whitespace-nowrap leading-[23.78px] transition-colors px-[unset] md:px-2.5 py-3 rounded-[15px] relative text-[#202229]`}
     >
-      <span className="relative z-10 px-8">{text}</span>
+      <span className="relative z-10 px-6 md:px-8">{text}</span>
       {selected && (
         <motion.span
           layoutId="pill-tab"

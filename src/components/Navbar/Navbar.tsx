@@ -47,7 +47,7 @@ const Navbar = () => {
 
                     <div className="md:hidden flex items-center justify-center gap-4">
                         <Button title="Join Now" className="!bg-white !text-[#202229]" />
-                        <img src="/menu.svg" alt="menu" onClick={() => setNav(!nav)} className="w-[48px] h-[48px] object-contain cursor-pointer" width={20} height={20} />
+                        <img src="/menu.svg" alt="menu" onClick={() => setNav(!nav)} className="w-[36px] h-[36px] object-contain cursor-pointer" width={20} height={20} />
                     </div>
                 </div>
             </motion.nav>
@@ -57,11 +57,11 @@ const Navbar = () => {
             <ul className={nav ? 'fixed left-0 top-0 w-full h-svh z-20 border-r bg-black ease-in-out duration-500 shadow-lg' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                 <div className="flex flex-col justify-between h-full overflow-scroll">
                     <div>
-                        <h1 className='w-full text-3xl font-bold text- p-4 flex items-center justify-between bg-[#2A2A33]'>
+                        <h1 className='w-full text-3xl font-bold text- p-4 flex items-center justify-between bg-[#525AA0]'>
                             <a href="/" className="cursor-pointer" >
-                                <Image src="next.svg" width={14} height={56} alt="logo" className="w-[56px] h-[56px] object-contain" onClick={() => { }} />
+                                <Image src="next.svg" width={18} height={56} alt="logo" className="w-[56px] h-[56px] object-contain" onClick={() => { }} />
                             </a>
-                            <Image src="menu.svg" width={14} height={56} alt="navx" onClick={() => setNav(!nav)} className="w-[56px] h-[56px] object-contain" />
+                            <Image src="menu.svg" width={14} height={56} alt="navx" onClick={() => setNav(!nav)} className="w-[36px] h-[36px] object-contain" />
                         </h1>
                         <li className='text-white'>
                            

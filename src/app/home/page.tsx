@@ -13,6 +13,7 @@ import WhychooseZwilt from './WhychooseZwilt'
 import Faq from './Faq'
 import NeedAJob from './NeedAJob'
 
+{/* <img className='inline' src="hero-face.svg" alt="hero-face" /> */}
 const Home = () => {
     return (
         <div>
@@ -20,7 +21,7 @@ const Home = () => {
             <div className={`max-w-7xl mx-3 sm:mx-auto flex flex-row items-center justify-center gap-5`}>
                 <motion.div variants={navVariants} className="flex flex-col my-7 md:my-14">
                     <p className={`inline text-center mt-2 text-[#202229] font-bold text-[54px] leading-[64px]`}>
-                        Finding the right fit <span><img className='inline' src="hero-face.svg" alt="hero-face" /></span> has<br className='hidden sm:block' /> never been easier.
+                        Finding the right fit <span className="w-[64px] h-[43px] inline"><img className="w-[64px] inline" src="https://s3-alpha-sig.figma.com/img/77ea/e46e/4921166cf2646c0f6f42c6cf4855a5ea?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JonPdHv4IwB1~u5~gh-ljwmE4G2KrNp11qC3rABUhrIMox2yi7ExWWZcKSGC7hZ8OqIoBcTf5Tzh2Ghfj9Fmbu1m5TeKQ0gNUkaGu8sWDNih7fA31-E7ILzVMkfI8MKETpYj99OAJke42hkhATXhtunaRzBw9I~eCCVJH7x38oDd7VYBnpz6QL-sDOfHfgnuTGUIm9b4F4gCzd9YB5cX56Bk7N5X-xjOLkpRxdCHyoD148YDZRf70Da3nTuTLMxtOQB7kgP8hYkxjI1KBmigI4A2EhN9ugAxi2gmUF1SZ4pyNtuLoh95E-WitpIrLtVp~ikQRqiAUsBYCYNqi86B~w__" alt="hero-face" /> </span> has<br className='hidden sm:block' /> never been easier.
                     </p>
                     <motion.p variants={navVariants} className={`text-center mt-4 text-[#202229] font-normal text-[22px] leading-[32px]`}>With our rigorous pre-vetting process, you&apos;ll never have to <br className='hidden sm:block' /> worry about finding the ideal candidate ever again.</motion.p>
                 </motion.div>
