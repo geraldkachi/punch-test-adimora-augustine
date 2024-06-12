@@ -57,7 +57,7 @@ const Navbar = () => {
             <ul className={nav ? 'fixed left-0 top-0 w-full h-svh z-20 border-r bg-black ease-in-out duration-500 shadow-lg' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                 <div className="flex flex-col justify-between h-full overflow-scroll">
                     <div>
-                        <h1 className='w-full text-3xl font-bold text- p-4 flex items-center justify-between bg-[#525AA0] drop-shadow-[0_95px_25px_rgba(0,0,0,0.95)]'>
+                        <h1 className='w-full text-3xl font-bold text- p-4 flex items-center justify-between bg-[#525AA0]'>
                             <a href="/" className="cursor-pointer" >
                                 <Image src="next.svg" width={18} height={56} alt="logo" className="w-[56px] h-[56px] object-contain" onClick={() => { }} />
                             </a>
