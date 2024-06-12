@@ -13,12 +13,12 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     return (
         <>
-            <motion.nav variants={navVariants} initial="hidden" whileInView="show" className={`my-4 p-3 relative max-w-[1300px] mx-3 sm:mx-auto bg-[#525AA0] rounded-[15px]`}>
+            <motion.nav variants={navVariants} initial="hidden" whileInView="show" className={`my-4 p-3 relative max-w-[1300px] mx-3 sm:mx-auto bg-[#525AA0] rounded-[15px] drop-shadow-[0_15px_25px_rgba(0,0,0,0.15)]`}>
                 {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
-                <div className={`mx-auto flex items-center justify-between gap-8 bg-[#525AA0] rounded-[15px]`}>
+                <div className={`mx-auto flex items-center justify-between gap-8 rounded-[15px] `}>
                     <div  className="cursor-pointer"  onClick={() => router.push('/', { scroll: false })}>
                     <Link href="/">
-                        <Image src="next.svg" width={100} height={56} alt="logo" className="wi object-contain cursor-pointer" />
+                        <Image src="next.svg" width={100} height={56} alt="logo" className="wi object-contain cursor-pointer ml-10" />
                     </Link>
                     </div>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
             <ul className={nav ? 'fixed left-0 top-0 w-full h-svh z-20 border-r bg-black ease-in-out duration-500 shadow-lg' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                 <div className="flex flex-col justify-between h-full overflow-scroll">
                     <div>
-                        <h1 className='w-full text-3xl font-bold text- p-4 flex items-center justify-between bg-[#525AA0]'>
+                        <h1 className='w-full text-3xl font-bold text- p-4 flex items-center justify-between bg-[#525AA0] drop-shadow-[0_95px_25px_rgba(0,0,0,0.95)]'>
                             <a href="/" className="cursor-pointer" >
                                 <Image src="next.svg" width={18} height={56} alt="logo" className="w-[56px] h-[56px] object-contain" onClick={() => { }} />
                             </a>

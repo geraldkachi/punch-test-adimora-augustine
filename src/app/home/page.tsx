@@ -16,7 +16,7 @@ import NeedAJob from './NeedAJob'
 {/* <img className='inline' src="hero-face.svg" alt="hero-face" /> */}
 const Home = () => {
     return (
-        <div>
+        <div className='my-0 '>
             <Navbar />
             <div className={`max-w-7xl mx-3 sm:mx-auto flex flex-row items-center justify-center gap-5`}>
                 <motion.div variants={navVariants} className="flex flex-col my-7 md:my-14">
@@ -29,7 +29,7 @@ const Home = () => {
 
             <div className="flex item-center justify-center mx-3 max-w-7xl sm:mx-auto">
                 <form className="relative flex w-full max-w-md items-center gap-2 rounded-[15px] border-[1.5px] border-[#F0F0F0] my-1.5 pl-6">
-                    <input type="email" placeholder="Looking for design |" className="w-full h-full bg-transparent text-sm text-[#202229] placeholder- focus:outline-0" />
+                    <input type="email" placeholder="Looking for design |" className="w-full h-full bg-transparent text-sm text-[#202229] placeholder-[#202229] focus:outline-0" />
                     <button type="submit" className="flex shrink-0 items-center rounded-[15px] bg-[#FFBE2E] px-4 py-6 h-max transition-transform active:scale-[0.985]">
                         <img src="searchicon.svg" alt="" />
                     </button>
